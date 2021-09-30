@@ -1,6 +1,6 @@
 # Computer Networking
 
-> A set of 4 small projects built in an attempt to understand Computer Networking Concepts
+> A set of 3 small projects built in an attempt to understand Computer Networking Concepts
 
 ### 1. Mailing Client
 
@@ -16,3 +16,18 @@
 
 - DDOS-ing is illegal. Do it on your own servers / local computers. :)
 
+### 3. TCP Chat room
+
+- A chat room built using concepts of TCP
+
+- How to run : 
+
+Open 3 terminals : 
+```
+Term 1 : python3 server.py
+Term 2 : python3 client.py
+(Type a nickname)
+Term 3 : python3 client.py
+(Type a nickname)
+```
+Now Term2 and Term3 are chatting with each other as if they are two people who are having a normal conversation about whether or not one would recommend Windows as an operating system to the other.
